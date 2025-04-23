@@ -4,14 +4,14 @@ class Vector {
         this.y = y;
     }
 
-    add(other_x = 0, other_y = 0) {
-        this.x += other_x;
-        this.y += other_y;
+    add(other_vector) {
+        this.x += other_vector.x;
+        this.y += other_vector.y;
     }
 
-    sub(other_x = 0, other_y = 0) {
-        this.x -= other_x;
-        this.y -= other_y;
+    sub(other_vector) {
+        this.x -= other_vector.x;
+        this.y -= other_vector.y;
     }
 
     mult(scalar = 1) {
