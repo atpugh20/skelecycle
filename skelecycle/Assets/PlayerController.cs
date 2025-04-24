@@ -5,16 +5,15 @@ public class PlayerController : MonoBehaviour {
     Rigidbody2D rb;
     InputAction moveAction;
     InputAction jumpAction;
-
-    private bool isGrounded;
+    private LayerMask GroundLayer;
 
     private int jumpCount   = 0;
-    private int jumpLimit   = 2;
+    private int jumpLimit   = 1;
 
-    public float Speed      = 2.5f;
-    public float JumpForce  = 5.0f;
+    public float Speed      = 5.0f;
+    public float JumpForce  = 10.0f;
 
-    public float groundCheckDistance = 0.001f;
+    public float groundCheckDistance = 0.6f;
     
     void Start() {
         /**
@@ -23,29 +22,18 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
+        GroundLayer = LayerMask.GetMask("GroundLayer");
     }
 
     void Update() {
         /** 
          * Update is called once per frame
          */
-
-        // Collision
-        isGrounded = Physics2D.Raycast(
-            transform.position, 
-            Vector2.down,
-            groundCheckDistance
-        );
-
-        if (isGrounded)
-            jumpCount = 0;
-
-        Debug.DrawRay(transform.position, Vector2.down, Color.green);
-
+        checkIfGrounded(); 
+        
         // Movement
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
         rb.linearVelocityX = moveValue.x * Speed;
-
 
         // Jumping
         if (jumpCount < jumpLimit) {
@@ -54,5 +42,19 @@ public class PlayerController : MonoBehaviour {
                 rb.linearVelocityY = JumpForce;
             }
         }
+    }
+
+    private void checkIfGrounded() {
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position, 
+            Vector2.down,
+            groundCheckDistance,
+            GroundLayer
+        );
+        
+        if (hit.collider != null && rb.linearVelocityY <= 0) 
+            jumpCount = 0;
+
+        Debug.DrawRay(transform.position, Vector2.down * groundCheckDistance, Color.red);
     }
 }
