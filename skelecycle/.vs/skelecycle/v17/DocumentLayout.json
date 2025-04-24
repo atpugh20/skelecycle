@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:41:04.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:07:48.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
