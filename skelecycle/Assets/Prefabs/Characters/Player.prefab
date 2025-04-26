@@ -48,11 +48,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8c664a16e00b344bd42fd141dd6615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  interfaceController: {fileID: 0}
   Speed: 5
   JumpForce: 12
   groundCheckDistance: 0.6
   AngleZ: 0
-  AngleAcc: 1
+  SlipAngle: 90
+  deathFinished: 0
 --- !u!212 &2215111378414268227
 SpriteRenderer:
   m_ObjectHideFlags: 0
