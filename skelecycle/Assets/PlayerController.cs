@@ -16,7 +16,8 @@ public class PlayerController : MonoBehaviour {
     private int jumpCount   = 0;
     private int jumpLimit   = 1;
 
-    public float Speed      = 5.0f;
+    public float Speed      = 200.0f;
+    public float MaxVel     = 5.0f;
     public float JumpForce  = 12.0f;
 
     public float groundCheckDistance = 0.6f;
@@ -76,9 +77,9 @@ public class PlayerController : MonoBehaviour {
 
                 // Movement
                 Vector2 moveValue = moveAction.ReadValue<Vector2>();
-                rb.AddForce(new Vector2(1, 0) * Speed);
-                if (rb.linearVelocityX > Speed) {
-                    rb.linearVelocityX = Speed;
+                rb.AddForce(new Vector2(1, 0) * Speed * Time.deltaTime);
+                if (rb.linearVelocityX > MaxVel) {
+                    rb.linearVelocityX = MaxVel;
                 }
 
                 // Set the angle that the player will rotate at based on the speed the player is moving

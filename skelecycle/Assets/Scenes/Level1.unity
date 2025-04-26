@@ -7220,6 +7220,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3774387148157653847, guid: 2400bd5b01ee8b743b2cbd9a09094708, type: 3}
+      propertyPath: Speed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774387148157653847, guid: 2400bd5b01ee8b743b2cbd9a09094708, type: 3}
       propertyPath: SlipAngle
       value: 70
       objectReference: {fileID: 0}

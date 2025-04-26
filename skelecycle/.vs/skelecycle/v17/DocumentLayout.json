@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\interfacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\interfacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|c:\\users\\elite\\documents\\github\\skelecycle\\skelecycle\\assets\\interfacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|solutionrelative:assets\\interfacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95DE813D-5BED-EDB4-9CD6-A93B7611FC4B}|Assembly-CSharp.csproj|C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,7 +40,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -57,13 +57,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
               "ToolTip": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\PlayerController.cs",
               "RelativeToolTip": "Assets\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T01:07:48.024Z",
               "EditorCaption": ""
@@ -88,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "InterfaceController.cs",
               "DocumentMoniker": "C:\\Users\\elite\\Documents\\GitHub\\skelecycle\\skelecycle\\Assets\\InterfaceController.cs",
               "RelativeDocumentMoniker": "Assets\\InterfaceController.cs",
