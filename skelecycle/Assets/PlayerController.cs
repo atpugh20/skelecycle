@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour {
 
     public float AngleZ   = 0;
     public float SlipAngle = 70;
+    public float AngleScalar = 0.1f;
 
     private bool isDead = false;
     private bool isGrounded = false;
@@ -63,7 +64,6 @@ public class PlayerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
         // Check if paused before performing
         if (!interfaceController.GetIsPaused()) {
             CheckIfGrounded();
@@ -84,9 +84,9 @@ public class PlayerController : MonoBehaviour {
 
                 // Set the angle that the player will rotate at based on the speed the player is moving
                 if (AngleZ < 0 && moveValue.x == 0)
-                    AngleZ -= rb.linearVelocityX * 0.2f;
+                    AngleZ -= rb.linearVelocityX * AngleScalar;
                 else if (moveValue.x == 0)
-                    AngleZ += rb.linearVelocityX * 0.2f;
+                    AngleZ += rb.linearVelocityX * AngleScalar;
                 else
                     AngleZ -= moveValue.x;
 
